@@ -92,6 +92,7 @@ if (hasSim) {
 
 //? tata cara penggunaan else if. Else di akhir tidak perlu di isi dengan string
 //? karena sudah mewakilkan jika tidak ada dari semua data yang sudah di isi dari if hingga else if.
+//? untuk urutan sesuai dari atas ke bawah, jika ada error selalu perhatikan urutan.
 const angka = 100
 
 if (angka < 10){
