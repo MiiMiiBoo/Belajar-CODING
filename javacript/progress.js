@@ -82,7 +82,7 @@ const isPekerja = false;
 const canRidebike = true;
     console.log(isAnak);
 
-//#Conditional {if, else, then}
+//#Conditional {if, else}
 const hasSim = true;
 if (hasSim) {
     console.log('boleh nyetir');
@@ -90,4 +90,19 @@ if (hasSim) {
     console.log('tidak boleh nyetir')
 }
 
+//? tata cara penggunaan else if. Else di akhir tidak perlu di isi dengan string
+//? karena sudah mewakilkan jika tidak ada dari semua data yang sudah di isi dari if hingga else if.
+const angka = 100
 
+if (angka < 10){
+    console.log('satuan')
+}
+else if (angka < 100){
+    console.log('puluhan')
+}
+else if (angka < 1000){
+    console.log('ratusan')
+}
+else {
+    console.log('angka tidak valid')
+}
