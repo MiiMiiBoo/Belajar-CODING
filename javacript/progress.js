@@ -1,15 +1,15 @@
-//#String
+    //#String
 ;Pembelajaran String
 console.log('udinpekok');
 
-//#Variable
-//#Peraturan VARIABLE Harus pakai camelcase agar konsisten
+    //#Variable
+    //#Peraturan VARIABLE Harus pakai camelcase agar konsisten
 const UdinA = 'udindindin'
     console.log(UdinA);
     console.log(UdinA);
     console.log(UdinA);
 
-//#Aturan Variable
+    //#Aturan Variable
 const myName = 'udin'
 const myLastname = 'pekok'
 const myHobbie = 'ngerokok'
@@ -19,7 +19,7 @@ const umur = '200'
     console.log(myHobbie);
     console.log(umur);
 
-//#String contcatenation
+    //#String contcatenation
 const myName = 'udin'
 const myLastname = 'pekok'
 const myHobbie = 'ngerokok'
@@ -30,3 +30,9 @@ const fullname = myName + ' ' + myLastname;
     console.log(myLastname);
     console.log(myHobbie);
     console.log(umur);
+
+    //#Number bisa memakai {- kurang, + tambah, * kali , / bagi, % modulo, ** eksponen, ++ increment, -- decrement}
+const a = 10;
+const b = 2;
+const c = a + b;
+    console.log(c);
