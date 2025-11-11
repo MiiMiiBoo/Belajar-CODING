@@ -62,3 +62,14 @@ const e = 10000;
 
 const hasil = a * c + b * d - e;
     console.log(hasil);
+
+//penggunaan dengan desimal (1.5) atau berapapun 10%/40%
+const a = 5000;
+const b = 10000;
+const c = 3;
+const d = 2;
+const e = 0.1 //10%
+
+const hasil = a * c + b * d - e;
+const hasil2 = hasil - hasil * e;
+    console.log(hasil2);
