@@ -1,3 +1,4 @@
+;tata cara eksekusi dari bahasa komputer untuk hello world
 global _start
 section .data
     msg db 'udinpekok', 0xA
