@@ -36,3 +36,29 @@ const a = 10;
 const b = 2;
 const c = a + b;
     console.log(c);
+
+    //#order of operation
+//#menurut logika mm basic akan melakukan perkalian terlebih dahulu
+const a = 10 + 32 * 13
+    console.log(a);
+
+//#jika ingin melakukan pertambahan terlebih dahulu maka ditambahkan kurung
+const a = (10 + 32) * 13
+    console.log(a);
+
+//pertambahan dan perkalian
+const a = 5000;
+const b = 10000;
+const c = (a * 3) + b * 2
+const d = c - 10000;
+    console.log(d);
+
+//Versi logika lain
+const a = 5000;
+const b = 10000;
+const c = 3;
+const d = 2;
+const e = 10000;
+
+const hasil = a * c + b * d - e;
+    console.log(hasil);
