@@ -73,3 +73,21 @@ const e = 0.1 //10%
 const hasil = a * c + b * d - e;
 const hasil2 = hasil - hasil * e;
     console.log(hasil2);
+
+//#Boolean {true, false}
+const isMakanan = true;
+const isAnak = false;
+const isPelajar = true;
+const isPekerja = false;
+const canRidebike = true;
+    console.log(isAnak);
+
+//#Conditional {if, else, then}
+const hasSim = true;
+if (hasSim) {
+    console.log('boleh nyetir');
+} else {
+    console.log('tidak boleh nyetir')
+}
+
+
