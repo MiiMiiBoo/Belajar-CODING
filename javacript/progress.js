@@ -107,3 +107,23 @@ else if (angka < 1000){
 else {
     console.log('angka tidak valid')
 }
+
+        /*Object adalah kumpulan dalam 1 keyvalue
+        */
+const name = 'Pisang';
+const weight = '5';
+const isSoldout = false;
+
+    // ini untuk 1 produk jadi bisa dijadikan 1 variabel saja
+const product = {
+     name : 'Pisang',
+     weight: 5,
+     isSoldout : false
+    };
+//contoh pengerjaan
+    const person = {
+        nama : 'udin',
+        umur : 29,
+        tahunLahir : 1990,
+        apakahBekerja : false
+    };
