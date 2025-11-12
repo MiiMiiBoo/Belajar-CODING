@@ -29,13 +29,16 @@ using namespace std;
 
  /*ada 4 tipe data fundamental dalam c++*/
  #include <iostream>
- using name space std;
+ using namespace std;
 
  int main ()
  {
-    char karaktersaya;
-    int panjang;
-    int lebar;
-    float phi;
+    char karaktersaya = 'A';
+    int panjang = 29;
+    int lebar = 10;
+    float phi = 3.4;
     bool a;
+
+    int luas = panjang * lebar;
+    cout << luas;
  }
