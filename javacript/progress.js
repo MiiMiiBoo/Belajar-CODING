@@ -108,8 +108,8 @@ else {
     console.log('angka tidak valid')
 }
 
-        /*Object adalah kumpulan dalam 1 keyvalue
-        */
+    /*Object adalah kumpulan dalam 1 keyvalue
+    */
 const name = 'Pisang';
 const weight = '5';
 const isSoldout = false;
@@ -120,10 +120,11 @@ const product = {
      weight: 5,
      isSoldout : false
     };
-//contoh pengerjaan
+    //contoh pengerjaan
     const person = {
         nama : 'udin',
         umur : 29,
         tahunLahir : 1990,
         apakahBekerja : false
     };
+console.log(person.tahunLahir);       //jika ingin hanya ingin menampilkan nama saja tambahkan .isi variable
