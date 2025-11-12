@@ -1,15 +1,15 @@
-    //#String
+    //String
 ;Pembelajaran String
 console.log('udinpekok');
 
-    //#Variable
-    //#Peraturan VARIABLE Harus pakai camelcase agar konsisten
+    //Variable
+    //Peraturan VARIABLE Harus pakai camelcase agar konsisten
 const UdinA = 'udindindin'
     console.log(UdinA);
     console.log(UdinA);
     console.log(UdinA);
 
-    //#Aturan Variable
+    //Aturan Variable
 const myName = 'udin'
 const myLastname = 'pekok'
 const myHobbie = 'ngerokok'
@@ -19,7 +19,7 @@ const umur = '200'
     console.log(myHobbie);
     console.log(umur);
 
-    //#String contcatenation
+    //String contcatenation
 const myName = 'udin'
 const myLastname = 'pekok'
 const myHobbie = 'ngerokok'
@@ -31,18 +31,18 @@ const fullname = myName + ' ' + myLastname;
     console.log(myHobbie);
     console.log(umur);
 
-    //#Number bisa memakai {- kurang, + tambah, * kali , / bagi, % modulo, ** eksponen, ++ increment, -- decrement}
+    //Number bisa memakai {- kurang, + tambah, * kali , / bagi, % modulo, ** eksponen, ++ increment, -- decrement}
 const a = 10;
 const b = 2;
 const c = a + b;
     console.log(c);
 
-    //#order of operation
-//#menurut logika mm basic akan melakukan perkalian terlebih dahulu
+    //order of operation
+//menurut logika mm basic akan melakukan perkalian terlebih dahulu
 const a = 10 + 32 * 13
     console.log(a);
 
-//#jika ingin melakukan pertambahan terlebih dahulu maka ditambahkan kurung
+//jika ingin melakukan pertambahan terlebih dahulu maka ditambahkan kurung
 const a = (10 + 32) * 13
     console.log(a);
 
@@ -74,7 +74,7 @@ const hasil = a * c + b * d - e;
 const hasil2 = hasil - hasil * e;
     console.log(hasil2);
 
-//#Boolean {true, false}
+//Boolean {true, false}
 const isMakanan = true;
 const isAnak = false;
 const isPelajar = true;
@@ -82,7 +82,7 @@ const isPekerja = false;
 const canRidebike = true;
     console.log(isAnak);
 
-//#Conditional {if, else}
+//Conditional {if, else}
 const hasSim = true;
 if (hasSim) {
     console.log('boleh nyetir');
@@ -90,9 +90,9 @@ if (hasSim) {
     console.log('tidak boleh nyetir')
 }
 
-//? tata cara penggunaan else if. Else di akhir tidak perlu di isi dengan string
-//? karena sudah mewakilkan jika tidak ada dari semua data yang sudah di isi dari if hingga else if.
-//? untuk urutan sesuai dari atas ke bawah, jika ada error selalu perhatikan urutan.
+//tata cara penggunaan else if. Else di akhir tidak perlu di isi dengan string
+//karena sudah mewakilkan jika tidak ada dari semua data yang sudah di isi dari if hingga else if.
+//untuk urutan sesuai dari atas ke bawah, jika ada error selalu perhatikan urutan.
 const angka = 100
 
 if (angka < 10){
