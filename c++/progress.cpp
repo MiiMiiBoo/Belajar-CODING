@@ -74,3 +74,20 @@ int main()
     int hasil = luas * lebar;
     cout << hasil;
 }
+
+/*operator assigment, merupakan cara untuk menentukan sebuah nilai
+kepada sebuah variabel*/
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int a,b;
+    a = 4;
+    b = 10;
+    a = b;
+    b = a * 5;
+
+    cout << "a:" << a << endl;
+    cout <<"b:" <<
+ }
