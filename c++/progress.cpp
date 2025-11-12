@@ -42,3 +42,35 @@ using namespace std;
     int luas = panjang * lebar;
     cout << luas;
  }
+
+ /*konstanta define, nilainya tidak bisa di 
+ rubah dalam sepanjang program.Ada 2 cara dalam mendeklarasikan
+ dalam sytanx preprocessor define, dan yang ke 2 adalah syntax
+ cons
+ */
+
+ //define PANJANG 10
+ //define LEBAR 20
+#include <iostream>
+using namespace std;
+#define PANJANG 10
+#define LEBAR 20
+
+int main ()
+{
+    int luas;
+    luas = PANJANG * LEBAR;         /*jika memakai define maka tidak bisa di deklarasikan lagi*/
+    cout << luas;                   
+}
+
+//Konstanta CONS
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const int luas = 10;
+    const int lebar = 20;
+    int hasil = luas * lebar;
+    cout << hasil;
+}
