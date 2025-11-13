@@ -168,5 +168,5 @@ const makanan = [
     'sate',
     'geprek'
 ];
-const hasil = 'makanan favoritku adalah' + ' '
+const hasil = 'makanan favoritku adalah' + ' ' //+ makanan[2]\\ ataupun bisa di taruh ke sini bracket notationnya
     console.log(hasil + makanan[2])
