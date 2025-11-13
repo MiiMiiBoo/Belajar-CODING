@@ -129,4 +129,25 @@ const product = {
     };
 console.log(person.tahunLahir);       //jika ingin hanya ingin menampilkan nama saja tambahkan .isi variable
 
-    //
+    //Array adalah cara menyimpan data dengan berbentuk daftar
+    //Fungsi .length (total berapa jumlah di dalam array)
+const usernames = [
+    'yadi',
+    'dimas',
+    'mita'
+];
+const hasil = 'Ada' + ' ' +usernames.length + ' ' + 'Username'
+    console.log(hasil)
+
+    //fungsi .includes (apakah di dalam array itu memiliki element tertentu), apakah ada (...)?
+const username = [
+    'yadi',
+    'dimas',
+    'mita'
+];
+const newUsername = 'udin'
+const hasTrue = username.includes(newUsername)
+    if (hasTrue) {
+    console.log('username ada')
+}
+    else console.log('username tidak ada')
