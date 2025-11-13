@@ -151,3 +151,22 @@ const hasTrue = username.includes(newUsername)
     console.log('username ada')
 }
     else console.log('username tidak ada')
+
+    //jika ingin hanya element yang dipilih di dalam array
+    //kita menggunakan bracket notation ([]) dengan isi dari index (0, 1, 2, 3, 4, ....)
+const username = [
+    'yadi',         //index ke 0
+    'dimas',        //index ke 1
+    'mita'          //index ke 2
+];
+console.log(username[2])        //ini bracket notation
+
+
+    //contoh soal
+const makanan = [
+    'bakso',
+    'sate',
+    'geprek'
+];
+const hasil = 'makanan favoritku adalah' + ' '
+    console.log(hasil + makanan[2])
