@@ -128,3 +128,5 @@ const product = {
         apakahBekerja : false
     };
 console.log(person.tahunLahir);       //jika ingin hanya ingin menampilkan nama saja tambahkan .isi variable
+
+//
