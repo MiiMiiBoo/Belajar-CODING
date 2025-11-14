@@ -1,8 +1,8 @@
-    //String
+//String
 ;Pembelajaran String
 console.log('udinpekok');
 
-    //Variable
+//Variable
     //Peraturan VARIABLE Harus pakai camelcase agar konsisten
 const UdinA = 'udindindin'
     console.log(UdinA);
@@ -19,7 +19,7 @@ const umur = '200'
     console.log(myHobbie);
     console.log(umur);
 
-    //String contcatenation
+//String contcatenation
 const myName = 'udin'
 const myLastname = 'pekok'
 const myHobbie = 'ngerokok'
@@ -37,8 +37,8 @@ const b = 2;
 const c = a + b;
     console.log(c);
 
-    //order of operation
-    //menurut logika mm basic akan melakukan perkalian terlebih dahulu
+//order of operation
+    //menurut logika matematika basic akan melakukan perkalian terlebih dahulu
 const a = 10 + 32 * 13
     console.log(a);
 
@@ -46,14 +46,14 @@ const a = 10 + 32 * 13
 const a = (10 + 32) * 13
     console.log(a);
 
-    //pertambahan dan perkalian
+//pertambahan dan perkalian
 const a = 5000;
 const b = 10000;
 const c = (a * 3) + b * 2
 const d = c - 10000;
     console.log(d);
 
-    //Versi logika lain
+//Versi logika lain
 const a = 5000;
 const b = 10000;
 const c = 3;
@@ -63,7 +63,7 @@ const e = 10000;
 const hasil = a * c + b * d - e;
     console.log(hasil);
 
-    //penggunaan dengan desimal (1.5) atau berapapun 10%/40%
+//penggunaan dengan desimal (1.5) atau berapapun 10%/40%
 const a = 5000;
 const b = 10000;
 const c = 3;
@@ -74,7 +74,7 @@ const hasil = a * c + b * d - e;
 const hasil2 = hasil - hasil * e;
     console.log(hasil2);
 
-    //Boolean {true, false}
+//Boolean {true, false}
 const isMakanan = true;
 const isAnak = false;
 const isPelajar = true;
@@ -82,7 +82,7 @@ const isPekerja = false;
 const canRidebike = true;
     console.log(isAnak);
 
-    //Conditional {if, else}
+//Conditional {if, else}
 const hasSim = true;
 if (hasSim) {
     console.log('boleh nyetir');
@@ -90,9 +90,9 @@ if (hasSim) {
     console.log('tidak boleh nyetir')
 }
 
-    //tata cara penggunaan else if. Else di akhir tidak perlu di isi dengan string
-    //karena sudah mewakilkan jika tidak ada dari semua data yang sudah di isi dari if hingga else if.
-    //untuk urutan sesuai dari atas ke bawah, jika ada error selalu perhatikan urutan.
+//tata cara penggunaan else if. Else di akhir tidak perlu di isi dengan string
+//karena sudah mewakilkan jika tidak ada dari semua data yang sudah di isi dari if hingga else if.
+//untuk urutan sesuai dari atas ke bawah, jika ada error selalu perhatikan urutan.
 const angka = 100
 
 if (angka < 10){
@@ -108,8 +108,7 @@ else {
     console.log('angka tidak valid')
 }
 
-    /*Object adalah kumpulan dalam 1 keyvalue
-    */
+/*Object adalah kumpulan dalam 1 keyvalue*/
 const name = 'Pisang';
 const weight = '5';
 const isSoldout = false;
@@ -129,7 +128,7 @@ const product = {
     };
 console.log(person.tahunLahir);       //jika ingin hanya ingin menampilkan nama saja tambahkan .isi variable
 
-    //Array adalah cara menyimpan data dengan berbentuk daftar
+//Array adalah cara menyimpan data dengan berbentuk daftar
     //Fungsi .length (total berapa jumlah di dalam array)
 const usernames = [
     'yadi',
@@ -139,7 +138,7 @@ const usernames = [
 const hasil = 'Ada' + ' ' +usernames.length + ' ' + 'Username'
     console.log(hasil)
 
-    //fungsi .includes (apakah di dalam array itu memiliki element tertentu), apakah ada (...)?
+//fungsi .includes (apakah di dalam array itu memiliki element tertentu), apakah ada (...)?
 const username = [
     'yadi',
     'dimas',
@@ -170,3 +169,5 @@ const makanan = [
 ];
 const hasil = 'makanan favoritku adalah' + ' ' //+ makanan[2]\\ <-- ataupun bisa di taruh ke sini bracket notationnya
     console.log(hasil + makanan[2])
+
+//Undefined & null
