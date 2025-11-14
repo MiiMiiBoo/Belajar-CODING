@@ -1,3 +1,4 @@
+            /*Tutorial ini saya pelajari dari channel agung hapsah*/
 //String
 ;Pembelajaran String
 console.log('udinpekok');
@@ -171,7 +172,21 @@ const hasil = 'makanan favoritku adalah' + ' ' //+ makanan[2]\\ <-- ataupun bisa
     console.log(hasil + makanan[2])
 
 //Undefined (Tak terdifinisi atau Tidak ada) & null, Untuk penggunaan tidak ada bedanya, cukup pilih salah satu saja
+//secara logika undifined tidak sama dengan null
+const logika = (undefined === null)         //bertanya kepada mesin apakah undifined sama dengan null?
+    console.log(logika)
+
+
     //Undifined
+const sepatu = 'BMST';
+const motor = 'Honda';
+const sepeda = 'United';
+const mobil = 'katana';
+const kapal = undefined
+const pesawat = undefined
+    console.log(kapal);
+
+    //null
 const sepatu = 'BMST';
 const motor = 'Honda';
 const sepeda = 'United';
@@ -179,4 +194,4 @@ const mobil = 'katana';
 const kapal = null
 const pesawat = null
     console.log(kapal);
-
+    
