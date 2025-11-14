@@ -1,3 +1,5 @@
+            /*Program coding c++ ini saya belajar dari banyak mentor baik online maupun buku dari Abdul Kadir*/
+
 // Proggram pertama (ini berisi komentar jadi tidak dieksekusi oleh kode program)
 #include <iostream>
 
