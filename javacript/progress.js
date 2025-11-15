@@ -194,4 +194,16 @@ const mobil = 'katana';
 const kapal = null
 const pesawat = null
     console.log(kapal);
-    
+
+    //function artinya untuk melakukan sesuatu
+function saySelamatUlangTahun() {
+    console.log('Selamat Ulang Tahun!')     //ini adalah console body
+}
+    saySelamatUlangTahun();                 //function hanya berkerja jika saat dipanggil. Dan penggunaan tidak terbatas.
+    //contoh 2
+function namaSaya() {
+    console.log('UDIIIIIIIIIIIN')
+}
+    namaSaya();
+    namaSaya();
+    namaSaya();
