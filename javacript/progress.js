@@ -225,4 +225,8 @@ function numm(Number) {             //untuk penulisan seperti wajib memperhatika
 }
 numm(-1)
 
-    //
+    //Kita bisa memakai parameter perhitungan dasar seperti umur refrensi dan nama
+function saySelamatUlangTahun(name, umur) {
+    console.log('Selamat Ulang Tahun Ke ' + umur + ',' + ' ' + name)
+};
+saySelamatUlangTahun('Udin', 25)
