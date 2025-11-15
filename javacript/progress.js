@@ -196,7 +196,7 @@ const pesawat = null
     console.log(kapal);
 
     //function artinya untuk melakukan sesuatu
-function saySelamatUlangTahun() {
+function saySelamatUlangTahun() {           //function bisa dipakai parameter dengan mengisi dalam kurung
     console.log('Selamat Ulang Tahun!')     //ini adalah console body
 }
     saySelamatUlangTahun();                 //function hanya berkerja jika saat dipanggil. Dan penggunaan tidak terbatas.
@@ -207,3 +207,22 @@ function namaSaya() {
     namaSaya();
     namaSaya();
     namaSaya();
+    //Contoh penggunaan parameter
+function saySelamatUlangTahun(name) {
+    console.log('Selamat Ulang Tahun, ' + name)
+};
+saySelamatUlangTahun('Udin')
+
+    //contoh soal
+function numm(Number) {             //untuk penulisan seperti wajib memperhatikan kurung
+    if (Number > 0) {               //karena membutuhkan ketelitian untuk menulisnya
+        console.log('Positif')
+    }else if(Number < 0) {
+        console.log('Negatif')
+    }else {
+        console.log('Netral')
+    }
+}
+numm(-1)
+
+    //
